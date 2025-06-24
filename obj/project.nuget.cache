@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "WqCntS8AOCI=",
+  "success": true,
+  "projectFilePath": "/Users/davidh/Downloads/controller_source/FourChannelLightController.csproj",
+  "expectedPackageFiles": [
+    "/Users/davidh/.nuget/packages/runtime.linux-arm.runtime.native.system.io.ports/6.0.0/runtime.linux-arm.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/runtime.linux-arm64.runtime.native.system.io.ports/6.0.0/runtime.linux-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/runtime.linux-x64.runtime.native.system.io.ports/6.0.0/runtime.linux-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/runtime.native.system.io.ports/6.0.0/runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/runtime.osx-arm64.runtime.native.system.io.ports/6.0.0/runtime.osx-arm64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/runtime.osx-x64.runtime.native.system.io.ports/6.0.0/runtime.osx-x64.runtime.native.system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/system.io.ports/6.0.0/system.io.ports.6.0.0.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/microsoft.netcore.app.runtime.win-x64/6.0.36/microsoft.netcore.app.runtime.win-x64.6.0.36.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/microsoft.windowsdesktop.app.ref/6.0.36/microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/microsoft.windowsdesktop.app.runtime.win-x64/6.0.36/microsoft.windowsdesktop.app.runtime.win-x64.6.0.36.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/microsoft.aspnetcore.app.runtime.win-x64/6.0.36/microsoft.aspnetcore.app.runtime.win-x64.6.0.36.nupkg.sha512",
+    "/Users/davidh/.nuget/packages/microsoft.netcore.app.host.win-x64/6.0.36/microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

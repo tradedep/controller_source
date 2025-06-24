@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <OutputType>WinExe</OutputType>
+
+    <PlatformTarget>x64</PlatformTarget>
+
+    
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <PublishSingleFile>false</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+
+     
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+
+    
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
+
+  <IncludeRuntimeConfigurationFilesInSingleFile>true</IncludeRuntimeConfigurationFilesInSingleFile></PropertyGroup>
+  
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  <DebugSymbols>false</DebugSymbols></PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ThirdGenDialogUI\CommonMethod.cs" />
+    <Compile Include="ThirdGenDialogUI\Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThirdGenDialogUI\Loading.designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AutoWindowsSize.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3 Generation Mini Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3 Generation Mini Controller.designer.cs">
+      <DependentUpon>3 Generation Mini Controller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="8-Channel Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="8-Channel Controller.designer.cs">
+      <DependentUpon>8-Channel Controller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3 Generation Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3 Generation Controller.designer.cs">
+      <DependentUpon>3 Generation Controller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommConfig.cs" />
+    <Compile Include="Component1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Component1.designer.cs">
+      <DependentUpon>Component1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="2 Generation Series High Power Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2 Generation Series High Power Controller.designer.cs">
+      <DependentUpon>2 Generation Series High Power Controller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConventionalController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConventionalController.designer.cs">
+      <DependentUpon>ConventionalController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCommConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCommConfig.designer.cs">
+      <DependentUpon>FrmCommConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Brightening Stroboscopic Controller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Brightening Stroboscopic Controller.designer.cs">
+      <DependentUpon>Brightening Stroboscopic Controller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ThirdGenDialogUI\Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3 Generation Mini Controller.resx">
+      <DependentUpon>3 Generation Mini Controller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="8-Channel Controller.resx">
+      <DependentUpon>8-Channel Controller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="3 Generation Controller.resx">
+      <DependentUpon>3 Generation Controller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2 Generation Series High Power Controller.resx">
+      <DependentUpon>2 Generation Series High Power Controller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConventionalController.resx">
+      <DependentUpon>ConventionalController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCommConfig.resx">
+      <DependentUpon>FrmCommConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Brightening Stroboscopic Controller.resx">
+      <DependentUpon>Brightening Stroboscopic Controller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+
+  
+  <ItemGroup>
+    <PackageReference Include="System.IO.Ports" Version="6.0.0" />
+  </ItemGroup>
+</Project>
